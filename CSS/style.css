@@ -68,6 +68,13 @@ ul {
     "topLeft topRight"
     "bottomLeft bottomRight";
 }
+.travelEAZE.enlarged {
+    transform: scale(1.1);
+}
+
+.sanctuary.enlarged {
+    transform: scale(1.1);
+}
 
 .travelPics {
     grid-area: topLeft;
