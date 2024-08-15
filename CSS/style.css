@@ -1,0 +1,199 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+}
+
+header {
+    background-color: #F1F1EA;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+ul {
+    width: 50%;
+    margin-left:auto;
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.logo {
+    text-align: center;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+    background-color: #4B755F;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+    color: #F1F1EA;
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexContainer div {
+    width: 33%;
+    margin: 0 1%;
+    padding: 2%;
+}
+
+.workGrid {
+    margin: auto;
+    max-width: 60%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    "topLeft topRight"
+    "bottomLeft bottomRight";
+}
+
+.travelPics {
+    grid-area: topLeft;
+    padding-bottom: 100px;
+}
+
+.sanctuaryPics {
+    grid-area: topRight;
+    padding-bottom: 100px;
+}
+
+.travelText {
+    grid-area: bottomLeft;
+}
+
+.sanctuaryText {
+    grid-area: bottomRight;
+}
+
+.travelPics img {
+    width: 150px;
+}
+
+.mySkills {
+    background-color: #EEB070;
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding: 25px;
+}
+
+.mySkills p {
+    width: 33%;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Noticia Text", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h4 {
+    padding: 10px;
+}
+
+.myWork {
+    background-color: #144A56;
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding: 25px;
+    color:#F1F1EA;
+    margin: auto;
+}
+
+.myWork img {
+    width: auto;
+    height: auto;
+}
+
+.sanctuaryPics .sanctPicOne {
+    width: auto;
+    height: auto;
+    align-content: center;
+}
+
+.myWork p {
+    width: 75%;
+    align-content: center;
+}
+
+.sanctuaryText p {
+    padding-bottom: auto;
+}
+
+h3 {
+    text-align: right;
+    text-decoration: underline;
+}
+
+footer {
+   background-color: #373738;
+   padding: 1px;
+}
+
+ul {
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+li {
+    padding: 5px;
+}
+
+button {
+    height: 40px;
+    width: auto;
+    background-color:#F1F1EA;
+    color: #373738;
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+footer ul {
+    color: #F1F1EA;
+}
+
+@media only screen and (max-width: 600px) {
+    .flexContainer {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .workGrid {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "topLeft"
+        "bottomLeft"
+        "topRight"
+        "bottomRight";
+    }
+}
