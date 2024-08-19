@@ -56,7 +56,7 @@ ul {
 
 .workGrid {
     margin: auto;
-    max-width: 60%;
+    max-width: 40%;
     display: grid;
     grid-template-rows: 50% 50%;
     grid-template-columns: 50% 50%;
@@ -153,6 +153,7 @@ h3 {
     text-align: right;
     text-decoration: underline;
 }
+
 
 footer {
    background-color: #373738;
