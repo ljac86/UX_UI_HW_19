@@ -13,8 +13,9 @@ header {
 }
 
 nav {
-    width: 73%;
+    width: 100%;
     padding: 1%;
+    text-align: center;
 }
 
 ul {
@@ -24,6 +25,40 @@ ul {
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
+}
+
+.mainImg {
+    padding: 10px;
+    background-color: #AAC0B4;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    "left right";
+
+}
+
+.hero {
+    grid-area: left;
+    padding:auto;
+    margin: auto;
+}
+
+.mainImg {
+    grid-area: right;
+}
+
+.hero h1 {
+    font-size: 60px;
+}
+
+.hero h2 {   
+    font-size: 24px;
+    font-family: "Epilogue", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
 }
 
 .heroImg {
