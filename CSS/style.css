@@ -125,6 +125,12 @@ ul {
     grid-area: bottomRight;
 }
 
+.caseStudy {
+    color: #F1F1EA;
+    text-decoration: none;
+
+}
+
 .travelPics img {
     width: 150px;
 }
